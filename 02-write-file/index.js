@@ -1,4 +1,3 @@
-const { log } = require('node:console');
 const fs = require('node:fs');
 const path = require('node:path');
 fs.writeFile(path.resolve(__dirname, './text.txt'), '', 'utf-8', () => {})
